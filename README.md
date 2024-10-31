@@ -1,8 +1,6 @@
 # BiteSpeed Frontend Task: Chatbot flow builder
 
-![Chatbot Flow Builder](./task-screenshot.jpeg)
 
-[See the live demo](https://chatbot-flow-builder-task-bitespeed.vercel.app/)
 
 We’ll build a simple Chatbot flow builder using React and try to make the code extensible to easily add new features.
 
@@ -34,11 +32,3 @@ A chatbot flow is built by connecting multiple messages to decide the order of e
 - Zustand
 - TypeScript
 - UnoCss
-
-## Author
-
-- **Denish Sharma**
-    - Email: denishcommon@gmail.com
-    - LinkedIn: [denish-sharma](https://www.linkedin.com/in/denishsharma/)
-    - GitHub: [denish-sharma](https://www.github.com/denishsharma)
-    - React Starter Template: [react-starter-template](https://github.com/denishsharma/react-starter-template)

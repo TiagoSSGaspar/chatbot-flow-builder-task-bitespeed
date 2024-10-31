@@ -7,7 +7,7 @@ export default antfu(
         react: true,
         jsx: true,
         stylistic: {
-            indent: 4,
+            indent: 2,
             quotes: "double",
             semi: true,
             overrides: {
