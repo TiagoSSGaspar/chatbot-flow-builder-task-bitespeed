@@ -6,7 +6,6 @@ import type { ApplicationState } from "~/stores/application-state";
 
 import { useFlowValidator } from "~/modules/flow-builder/hooks/use-flow-validator";
 import { SwitchSidebarPanel } from "~/modules/sidebar/components/sidebar-switch-panel";
-import { trackSocialLinkClick } from "~/utils/ga4";
 
 import { OnMounted } from "~@/components/generics/on-mounted";
 import { Switch } from "~@/components/generics/switch-case";
@@ -69,26 +68,6 @@ export function MobileSidebarFragment({ activePanel, setActivePanel }: MobileSid
                     </button>
 
                     <div className="h-4 w-px shrink-0 bg-dark-300" />
-
-                    <a
-                        href="https://www.linkedin.com/in/denishsharma/"
-                        onClick={() => trackSocialLinkClick("linkedin")}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="size-10 flex shrink-0 items-center justify-center border border-transparent rounded-full bg-transparent outline-none transition active:(border-dark-300 bg-dark-600)"
-                    >
-                        <div className="i-mynaui:brand-linkedin size-5" />
-                    </a>
-
-                    <a
-                        href="https://github.com/denishsharma/chatbot-flow-builder-task-bitespeed"
-                        onClick={() => trackSocialLinkClick("github")}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="size-10 flex shrink-0 items-center justify-center border border-transparent rounded-full bg-transparent outline-none transition active:(border-dark-300 bg-dark-600)"
-                    >
-                        <div className="i-mynaui:brand-github size-5" />
-                    </a>
                 </div>
             </div>
 
